@@ -1,0 +1,14 @@
+﻿  Mane.cpp
+E:\Proekti\Laba_2\Matrix.h(37,41): error C2614: Matrixx<int>: недопустимая инициализация члена: "Vectorr<Vectorr<int> *>" не является базовым классом или членом
+E:\Proekti\Laba_2\Matrix.h(37): message : во время компиляции функции-члена класс шаблон "Matrixx<int>::Matrixx(int,int)"
+E:\Proekti\Laba_2\Mane.cpp(8): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrixx<int>::Matrixx(int,int)"
+E:\Proekti\Laba_2\Mane.cpp(8): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrixx<int>"
+E:\Proekti\Laba_2\Matrix.h(41,1): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "Vectorr<int> *" (или приемлемое преобразование отсутствует)
+E:\Proekti\Laba_2\Vectorr.h(27,15): message : может быть "Vectorr<int> &Vectorr<int>::operator =(Vectorr<int> &)"
+E:\Proekti\Laba_2\Matrix.h(41,1): message : при попытке сопоставить список аргументов "(M, Vectorr<int> *)"
+          with
+          [
+              M=Vectorr<int>
+          ]
+  Matrix.cpp
+  Создание кода...
